@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100dvw;
     margin: 0px;
 }
 header{
@@ -24,7 +24,7 @@ header{
     border-bottom: 1px solid #242c3a;
     font-family: "Bodoni Moda", sans-serif;
     font-weight: bold;
-    width: 100vw;
+    width: 100%;
 }
 header h1{
     line-height: 1;
@@ -79,7 +79,9 @@ nav li button:hover{
     header div{
         justify-content: center;
     }
-
+    header #works{
+        display: block;
+    }
     footer{
         padding-bottom: 30px;
     }
